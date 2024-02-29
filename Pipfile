@@ -9,6 +9,7 @@ planet = "*"
 requests = "*"
 rasterio = "*"
 matplotlib = "*"
+pandas = "*"
 
 [dev-packages]
 ipykernel = "*"
