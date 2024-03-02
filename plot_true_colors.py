@@ -20,8 +20,6 @@ blue = scale_min_max(data[0])
 green = scale_min_max(data[1])
 
 rgb = np.dstack((red, green, blue))
-#plt.figure()
 plt.imshow(rgb)
-#plt.show()
 
 plt.savefig('export3_rgb.png', bbox_inches='tight')
